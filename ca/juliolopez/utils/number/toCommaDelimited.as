@@ -1,11 +1,11 @@
 ﻿/****************************************************************
 TITLE:			To Comma Delimited String
 AUTHOR:			Julio Lopez
-LAST UPDATED: 	2011-01-019
+LAST UPDATED: 	2013-10-26
 DESCRIPTION:	Returns a comma delimited string like 1,000,000 from 1000000
 
 ****************************************************************/
-package ca.juliolopez.utils.number {;
+package ca.juliolopez.utils.number {
 	
 	public function toCommaDelimited(n:Number):String {
 		var nStr:String = n.toString().split(".")[0];	//strip off decimal

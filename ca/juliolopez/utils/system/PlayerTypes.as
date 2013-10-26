@@ -1,3 +1,10 @@
+/****************************************************************
+TITLE:			Player Types
+AUTHOR:			Julio Lopez
+LAST UPDATED: 	2013-10-26
+DESCRIPTION:	A collection of constants used by the ca.juliolopez.utils.system package
+
+****************************************************************/
 package ca.juliolopez.utils.system {
 	
 	/**
