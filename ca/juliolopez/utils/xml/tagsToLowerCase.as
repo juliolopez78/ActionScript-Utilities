@@ -2,7 +2,7 @@
 TITLE:			tagsToLowerCase
 AUTHOR:			Julio Lopez
 LAST UPDATED: 	2011-01-15
-DESCRIPTION:	A function for converting all xml tags and attributes to lower case
+DESCRIPTION:	A function for drawing arcs
 
 ****************************************************************/
 package ca.juliolopez.utils.xml {

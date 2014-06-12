@@ -7,7 +7,7 @@ DESCRIPTION:	A simple wrapper class that enables access to
 VERSION:		2.0
 USAGE:
 
-import lifelearn.utils.logging.Console;
+import ca.juliolopez.utils.logging.Console;
 Console.log("hello", "world");
 
 ****************************************************************/

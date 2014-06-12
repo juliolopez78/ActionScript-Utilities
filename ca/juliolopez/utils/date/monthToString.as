@@ -1,8 +1,8 @@
 ﻿/****************************************************************
 TITLE:			monthToString
 AUTHOR:			Julio Lopez
-LAST UPDATED: 	2011-01-318
-DESCRIPTION:	A function to see if an array contains a particular value
+LAST UPDATED: 	2013-10-26
+DESCRIPTION:	A function to return a string representation of the month, 0 thru 12
 
 ****************************************************************/
 package ca.juliolopez.utils.date {
