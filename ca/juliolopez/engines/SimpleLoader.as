@@ -5,7 +5,7 @@ LAST UPDATED: 	2010-03-30
 DESCRIPTION:	A simple preloader file to load programs
 
 ****************************************************************/
-package lifelearn.engines {	
+package ca.juliolopez.engines {	
 	import flash.display.DisplayObject;
 	import flash.display.Loader;
 	import flash.display.MovieClip;

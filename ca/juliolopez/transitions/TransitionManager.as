@@ -5,7 +5,7 @@ LAST UPDATED: 	2010-06-01
 DESCRIPTION:	A custom Transition Manager
 
 ****************************************************************/
-package lifelearn.transitions {
+package ca.juliolopez.transitions {
 	
 	import fl.transitions.*;
 	import fl.transitions.easing.*;

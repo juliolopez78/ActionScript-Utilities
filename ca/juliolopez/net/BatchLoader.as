@@ -5,12 +5,12 @@ LAST UPDATED: 	2010-03-30
 DESCRIPTION:	Object that can batch load swfs, jpgs, and other data
 
 ****************************************************************/
-package lifelearn.net {
+package ca.juliolopez.net {
 	
 	import flash.display.Loader;
 	import flash.display.LoaderInfo;
 	import flash.system.LoaderContext;
-	import lifelearn.utils.variables.isEmpty;
+	import ca.juliolopez.utils.variables.isEmpty;
 	
 	import flash.errors.IOError;
 	
@@ -24,8 +24,8 @@ package lifelearn.net {
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
 	
-	import lifelearn.net.BatchItem;
-	import lifelearn.utils.*;
+	import ca.juliolopez.net.BatchItem;
+	import ca.juliolopez.utils.*;
 	
 	dynamic public class BatchLoader extends EventDispatcher {
 		/*******************************  Properties  ********************************/

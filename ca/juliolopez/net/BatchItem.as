@@ -5,7 +5,7 @@ LAST UPDATED: 	2010-03-30
 DESCRIPTION:	Object that represents an item in a BatchLoader List
 
 ****************************************************************/
-package lifelearn.net {
+package ca.juliolopez.net {
 
 	import flash.display.Loader;
 	

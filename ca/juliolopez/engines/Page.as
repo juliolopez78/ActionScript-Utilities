@@ -7,7 +7,7 @@ DESCRIPTION:	Ancestor object that defines a lot of the
 				individual pages.
 
 ****************************************************************/
-package lifelearn.engines {
+package ca.juliolopez.engines {
 		
 	//import fl.core.UIComponent;
 	
@@ -27,9 +27,9 @@ package lifelearn.engines {
 	import flash.net.URLRequestMethod;
 	import flash.net.URLVariables;
 	
-	import lifelearn.ui.scrollbar.Scrollbar;
-	import lifelearn.utils.*;
-	import lifelearn.net.*;
+	import ca.juliolopez.ui.scrollbar.Scrollbar;
+	import ca.juliolopez.utils.*;
+	import ca.juliolopez.net.*;
 	
 	dynamic public class Page extends MovieClip{
 		/*******************************  Properties  ********************************/

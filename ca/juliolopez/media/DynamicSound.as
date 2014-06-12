@@ -1,4 +1,4 @@
-package lifelearn.media {
+package ca.juliolopez.media {
 	
 	import fl.transitions.Tween;
 	import fl.transitions.TweenEvent;
@@ -13,7 +13,7 @@ package lifelearn.media {
 	import flash.media.SoundChannel;
 	import flash.media.SoundTransform;
 	
-	import lifelearn.events.DynamicSoundEvent;
+	import ca.juliolopez.events.DynamicSoundEvent;
 	
 	/**
 	 * ...

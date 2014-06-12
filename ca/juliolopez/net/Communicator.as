@@ -5,7 +5,7 @@ LAST UPDATED: 	2010-03-30
 DESCRIPTION:	Handles GET and POST communication with a server
 
 ****************************************************************/
-package lifelearn.net {
+package ca.juliolopez.net {
 	
 	import flash.errors.IOError;
 	

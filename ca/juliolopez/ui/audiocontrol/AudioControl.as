@@ -1,4 +1,4 @@
-﻿package lifelearn.ui.audiocontrol {
+﻿package ca.juliolopez.ui.audiocontrol {
 	
 	import flash.display.MovieClip;
 	import flash.display.Sprite;

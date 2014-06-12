@@ -6,7 +6,7 @@ DESCRIPTION:	Static object that will contain most of the
 				constants required in the program.
 
 ****************************************************************/
-package lifelearn.variables {
+package ca.juliolopez.variables {
 	
 	public final class Constants extends Object {
 		/*******************************  Properties  ********************************/

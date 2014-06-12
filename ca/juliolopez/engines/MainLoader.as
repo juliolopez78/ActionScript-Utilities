@@ -8,7 +8,7 @@ DESCRIPTION:	Main Loader file. this file takes care of all the
 				Module they want to do
 
 ****************************************************************/
-package lifelearn.engines {
+package ca.juliolopez.engines {
 	
 	import fl.controls.ProgressBar;
 	import fl.controls.ProgressBarDirection;
@@ -42,9 +42,9 @@ package lifelearn.engines {
 	
 	import flash.ui.ContextMenu;
 	
-	import lifelearn.variables.Constants;
-	import lifelearn.utils.*;
-	import lifelearn.net.*;
+	import ca.juliolopez.variables.Constants;
+	import ca.juliolopez.utils.*;
+	import ca.juliolopez.net.*;
 	
 	dynamic public class MainLoader extends MovieClip{
 		/*******************************  Properties  ********************************/

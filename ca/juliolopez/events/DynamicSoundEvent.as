@@ -5,7 +5,7 @@ LAST UPDATED: 	2010-06-04
 DESCRIPTION:	DynamicSoundEvent Class
 
 ****************************************************************/
-package lifelearn.events {
+package ca.juliolopez.events {
 
 	import flash.events.Event;
 	

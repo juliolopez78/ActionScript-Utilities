@@ -1,4 +1,4 @@
-package lifelearn.ui {
+package ca.juliolopez.ui {
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	
