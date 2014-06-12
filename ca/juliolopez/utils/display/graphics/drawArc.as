@@ -21,20 +21,20 @@ package ca.juliolopez.utils.display.graphics {
 	 * @param angleTo		Number. The ending angle of the arc
 	 * @param precision		Number. The precision which to use when drawing the arc, higher = smoother arc
 	 *
-	 * @return 				Point. the x and y coords of one end of the arc
+	 * @return 			Point. the x and y coords of one end of the arc
 	 */
 	public function drawArc(sprite:Sprite, centerX:Number, centerY:Number, radius:Number, angleFrom:Number, angleTo:Number, precision:Number):Point {
-		var degToRad:Number = 0.0174532925;								//used to convert degrees to rad
-		var angleDiff:Number = angleTo - angleFrom;						//the total degrees the arc will span
-		var steps:int = Math.round(angleDiff * precision);				//the number of steps that will be used to draw the arc
-		var angle:Number = angleFrom;									//current angle, start at angleFrom
+		var degToRad:Number = 0.0174532925;				//used to convert degrees to rad
+		var angleDiff:Number = angleTo - angleFrom;			//the total degrees the arc will span
+		var steps:int = Math.round(angleDiff * precision);		//the number of steps that will be used to draw the arc
+		var angle:Number = angleFrom;					//current angle, start at angleFrom
 		var px:Number = centerX + radius * Math.cos(angle * degToRad);	//Starting x coord
 		var py:Number = centerY + radius * Math.sin(angle * degToRad);	//Starting y coord
-		var i:int;														//the current step
-		var toX:Number;													//x coord to draw to
-		var toY:Number;													//y coord to draw to
+		var i:int;							//the current step
+		var toX:Number;							//x coord to draw to
+		var toY:Number;							//y coord to draw to
 		
-		sprite.graphics.moveTo(px,py);									//move the drawing point to px,py
+		sprite.graphics.moveTo(px,py);					//move the drawing point to px,py
 		
 		//step through and draw each segment of the arc
 		for (i = 1; i<= steps; i++) {
